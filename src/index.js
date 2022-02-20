@@ -8,9 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
   export let render = () => {
     ReactDOM.render(
       <React.StrictMode>
-        <BrowserRouter>
                 <App/>
-        </BrowserRouter>
       </React.StrictMode>,
       document.getElementById('root')
     );
