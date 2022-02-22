@@ -48,7 +48,7 @@ const App = () => {
                         </ul>
                     </div>
                     <div className="technologies">
-                        <div><span>ссылка </span><a target="_blank" href="https://pizzastor-react.herokuapp.com/">Pizza Shop</a></div>
+                        <div><span>ссылка </span><a target="_blank" href="https://pizza-shopreact.herokuapp.com/#/">Pizza Shop</a></div>
                         <div ><span>technologies: </span>(React, redux, react-redux, axios, reducers, router-dom, thunk Hooks(useState, useEffect, useSelectors, useDispatch), classNamenames)</div>
                     </div>
                 </div>
