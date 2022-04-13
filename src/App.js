@@ -19,10 +19,10 @@ const App = () => {
             <div className="projects">
                 <div className="projects_blocks">
                     <div className="explane"><span className="number">1.</span>
-                        Социальная сеть с авторизацией. <br/>
+                        React - Социальная сеть с авторизацией.<br/>
                         <ul>
-                            <li>Данные получает с реального API, фронтенд часть полнотью моя.</li>
-                            <li>Используется: <strong>Redux</strong>, <strong>React-Redux</strong>, а соответственно и <strong>Редюсеры</strong>, приимущественно <strong>классовые компоненты, <strong>Thunks</strong>, контекнеры, Роутеры. Пагинация. Лоудинг. </strong></li>
+                            <li>Данные получает с реального backend, фронтенд часть полнотью моя.</li>
+                            <li>Используется: <strong>Redux</strong>, <strong>React-Redux</strong>, а соответственно и <strong>Редюсеры</strong>, приимущественно <strong>классовые компоненты, <strong>Thunks</strong>, контейнеры, Роутеры. Пагинация. Лоудинг. </strong></li>
                             <li> Для обработки и валидации форм используется <strong>ReduxForm</strong>. Для запросов на сервер используется <strong>axios.</strong></li>
                         </ul>
                         <div>
@@ -40,9 +40,9 @@ const App = () => {
                 <hr/>
                 <div className="projects_blocks">
                     <div className="explane"><span className="number">2.</span>
-                    Интернет магазин.
+                    React - Интернет магазин.
                     <ul>
-                            <li> Используется: <strong><strong>Redux</strong>, React-Redux, Редюсеры, функциональные компоненты, <strong>hooks</strong>.</strong></li>
+                            <li>Используется: <strong><strong>Redux</strong>, React-Redux, Редюсеры, функциональные компоненты, <strong>hooks</strong>.</strong></li>
                             <li>Для запросов на сервер используется axios. Используется <strong>json-server</strong> для имитации <strong>api</strong>.</li>
                             <li>Предусмотрена сортировка пицц, по алфавиту, по цене.</li>
                         </ul>
@@ -55,7 +55,7 @@ const App = () => {
                 <hr/>
                 <div className="projects_blocks">
                     <div className="explane"><span className="number">3.</span>
-                        Приложение-игра. <br/> Отдаленно напоминает как кросворд так и известную телепередачу "Поле чудес".
+                    React - Игра. <br/> Отдаленно напоминает как кросворд так и известную телепередачу "Поле чудес".
                     </div>
                     <div className="technologies">
                         <div><span>ссылка </span><a target="_blank" href="https://suanchik.github.io/game-guessword/">Crossword</a></div>
@@ -65,7 +65,7 @@ const App = () => {
                 <hr/>
                 <div className="projects_blocks">
                     <div className="explane"><span className="number">4.</span>
-                        Список задач с использованием <strong>json-server</strong>. <br/>
+                    React - Список задач с использованием <strong>json-server</strong>. <br/>
                         Добовление подзадач для каждой задачи.
                     </div>
                     <div className="technologies">
@@ -75,8 +75,27 @@ const App = () => {
                 </div>
                 <hr/>
                 <div className="projects_blocks">
+                    <div className="explane"><span className="number">1.</span>
+                        javaScript.<br/>
+                        <ul>
+                            <li>Заметки. Модальное окно, авторизация</li>
+                        </ul>
+                        <div>
+                            <strong style={{color: "red"}}>Email:</strong> staymuraz@gmail.com
+                        </div>
+                        <div>
+                            <strong style={{color: "red"}}>Password:</strong> suanos101
+                        </div>
+                    </div>
+                    <div className="technologies">
+                        <div><span>ссылка </span><a target="_blank" href="https://suanchik.github.io/notes/">notes</a></div>
+                        <div><span>technologies: </span>(localStorage, axios).</div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="projects_blocks">
                     <div className="explane"><span className="number">5.</span>
-                    Приложние со списком слов для изучения английского.
+                    React - Приложние со списком слов для изучения английского.
                     <ul>
                         <li>Есть возможность добавлять слова и добавлять к ним описание.</li>
                     </ul>
@@ -89,7 +108,7 @@ const App = () => {
                 <hr/>
                 <div className="projects_blocks">
                     <div className="explane"><span className="number">6.</span>
-                        Простые списки задач.
+                    React - Списки задач.
                     </div>
                     <div className="technologies">
                         <div><span>ссылка </span><a target="_blank" href="https://suanchik.github.io/simpleTasks/">Tasks</a></div>
